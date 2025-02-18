@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>CMAF baseline</title>
+</head>
+<body>
+  <script src="https://cdn.radiantmediatechs.com/rmp/5.12.1/js/rmp.min.js"></script>
+  <div id="rmpPlayer"></div>
+  <script src="https://cdn.radiantmediatechs.com/rmp/5.12.1/js/rmp.min.js"></script>
+  <div id="rmpPlayer"></div>
+  <script>
+    var src = {
+      hls: 'https://d217geswz36lyt.cloudfront.net/hls/20201123-iFrame-wonder/wonderWoman1984_avc.m3u8'
+    };
+    var settings = {
+      licenseKey: 'Kl8leTArMj1nZz9yb201ZGFzaXMzMGRiMEElXyo=',
+      src: src,
+      width: 100%,
+      height: 100%,
+      dashFirst: true,
+      contentMetadata: {
+        poster: [
+          'https://d217geswz36lyt.cloudfront.net/_images/wonder.jpg'
+        ]
+      }
+    };
+    var elementID = 'rmpPlayer';
+    var rmp = new RadiantMP(elementID);
+    rmp.init(settings);
+  </script>
+</body>
+</html>

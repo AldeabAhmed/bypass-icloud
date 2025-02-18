@@ -1,0 +1,100 @@
+*{margin:0; padding:0; overflow: hidden;}
+#player{width: 100vw; height: 100vh;}
+video {object-fit:fill}
+html,body{margin:0;}
+.video-js {width: 100%; height: 100%;} 
+#videojs {width: 100%; height: 100%;}
+/* <![CDATA[ */
+
+[data-watermark] img { max-width: 170%!important; }
+ 
+[data-watermark-bottom-left] {
+    bottom: 16px!important;
+    left: 10px!important;} 
+
+[data-watermark] img { max-width: 100%!important; }
+[data-watermark] {width: 22%!important;}
+  
+jw-controls.jw-reseth:before{content:'';z-index:9;position:absolute;right:0;left:0;bottom:7%;font-family:sans-serif;color:#c9c7c7;text-align:center;text-shadow:2px 2px 2px #000;font-size:2vw} #player{position:absolute;height:100%!important;z-index:9;right:0;left:0;} .jw-slider-time.jw-background-color.jw-reset.jw-slider-horizontal.jw-reset,.jwplayer.jw-flag-rightclick-open .jw-rightclick,.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind,.jw-icon.jw-icon-inline.jw-text.jw-reset.jw-text-elapsed,.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button.jw-off .jw-svg-icon,.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button.jw-off .jw-reset-text.jw-tooltip.jw-tooltip-captions,#matchpsho,.postimg,.post-body p{display:none!important} /*.jw-error-text.jw-reset-text,body .jwplayer.jw-state-error .jw-error-msg .jw-icon{display:none!important} .jw-preview.jw-reset{background-color:#000!important;} .jw-error-msg.jw-info-overlay.jw-reset:before{content:"في حالة توقف القناة اضغط على زرار تحديث";font-family:sans-serif;}*/ .jw-text-live::before{height:6px;width:6px;background-color:#f00} .jw-text-live.jw-dvr-live{box-shadow:initial} .jw-text-live.jw-dvr-live::before{background-color:currentColor;} iframe.cf{position:absolute;height:100%} .cf.videoif,{z-index:99;} iframe.videoif{height:100%;position:absolute} @media screen and (max-width:500px){ .jw-controls.jw-reset:before{font-size:2vw} } .plyr { position: unset !important; } .play-wrapper svg { width: 40px !important; } .player-poster[data-poster] { background-size: 100% !important; } div#Blog1 { float: right; width: 100%; height: 100%; } .video-b { height: 100%; float: right; width: 100%; } .video-p { height: 100%; float: right; width: 100%; } div#watch_dl { height: 100%; float: right; width: 100%; } .clear-post-body { height: 90%; float: right; width: 100%; } article.post.hentry { height: 100%; float: right; width: 100%; } .posts-wrapper { height: 100%; float: right; width: 100%; }
+   .
+/*]]>*/
+/* <![CDATA[ */
+
+    body { overflow: hidden; height: 100%; margin: 0px; padding: 0px; } .twitter-widget { z-index: 70; right: 10px; transition: all .3s; position: absolute; top: 10px; }
+	#showshare1 {
+    position: fixed;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index:9999;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    color: #eee;
+}
+
+#showshare10 {
+    position: absolute;
+    top: 50%;
+    margin-top: -90px;
+    right: 0;
+    left: 0;
+}
+.ytp-share-panel-title {
+    font-size: 105%;
+    font-family:"Segoe UI", tahoma;
+    color: #eee;
+    direction: rtl;
+    line-height: 1.3;
+}
+
+.ytp-share-panel-service-button {
+    padding: 3px;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+}
+.ytp-share-panel-service-buttons {
+    margin-top: 20px;
+    height: 44px;
+}
+
+textarea {
+    display: block;
+    position: relative;
+    border: 1px solid #f1f1f1;
+    margin: 5px auto;
+    border-radius: 5px;
+    width: 90%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    text-align: left;
+    max-width: 400px;
+    overflow-y: hidden;
+}
+.custom-btn {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 5px;
+    background: #dc4537;
+    font-size: 14px;
+    outline: 0 none;
+    color: #fff;
+    border:0;
+    font-family:"Segoe UI", tahoma;
+}
+.custom-btn:hover {
+    background: #b13a26;
+}
+.spinner-three-bounce[data-spinner] {
+    background: url(http://1.bp.blogspot.com/-llKolZ83Iac/X7_E0rwFfsI/AAAAAAAAJwo/YZuZsJcfJXUJh_9suBrqD3M3YA_gBWutgCK4BGAYYCw/s1600/loader1.gif) no-repeat center center;
+    height: 50px!important;
+    width: 100%!important;
+    top: 50%!important;
+}
+
+.spinner-three-bounce[data-spinner]>div {
+    width: 0!important;
+}
+/* ]]> */

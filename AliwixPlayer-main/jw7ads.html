@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><body>
+<script src="http://oui9mobi.com/fichiers/players/flsh_i_a_auto/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key = "WbtWzGvcRNi6Tk+gtKldIbx+nn6lXZFvKiaO2g==";</script> 
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>     
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+html {height: 100%; overflow: hidden;}#flashcontent {height: 100%;}
+body {height: 100%; margin: 0; padding: 0; background-color: #000;}
+.jw-controls:before {text-shadow: 1px 1px 2px #000; font-size: 2.5vw;color:#fff;position: absolute;
+right: 0;bottom: 0;left: 0; z-index: 0;display: flex;
+flex-direction: column;  justify-content: center; align-items: center;
+pointer-events: none; font-family:Harmattan,sans-serif; font-weight: bold; text-shadow: 0 3px 3px #000;
+content: "www.aliwix.ovh | أليويكس للبث المباشر"; height : 25%;}
+</style>
+<div id="player">Loading the player...</div><script>
+function gup(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");
+var n="[\\?&]"+e+"=([^&#]*)",
+l=new RegExp(n),
+c=l.exec(window.location.href);
+return null==c?"https://heny007.github.io/2m.m3u8":unescape(c[1])}
+var video=gup("src");
+var iptv=(video);
+jwplayer("player").setup({
+file:iptv,rtmp:{bufferlength:.5},
+androidhls:!0,
+// image:"#",
+// logo:{position:"top-left",margin:"30",file:"https://a.top4top.io/p_894xgcnv3.jpg",height:"30""},
+width:"100%",height:"100%",
+stretching:"exactfit",autostretch:"true",
+advertising:{client:"vast",tag:"https://cdn.jsdelivr.net/gh/HeNy007/AliwixPlayer/assets/jwads.xml"},
+flashplayer:"https://raw.githack.com/HeNy007/HeNy-Ben-Hamed/master/today-matches/jwplayer.flash.swf",tracks:{file:"thumbnails.vtt",kind:"thumbnails"}, 
+primary:"flash",autostart:"true",aboutlink:""});
+</script></body></html>

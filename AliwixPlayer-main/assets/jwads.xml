@@ -1,0 +1,26 @@
+<VAST version="3.0">
+<Ad id="2400994">
+<InLine>
+<AdSystem>Stream</AdSystem>
+<AdTitle/>
+<Error> </Error>
+<Creatives>
+<Creative sequence="1" id="20589484">
+<Linear skipoffset="05">
+<Duration>05</Duration>
+<TrackingEvents>
+<Tracking event="progress" offset="05"> </Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>https://youtu.be/tm3EVRykbW0</ClickThrough>
+<ClickTracking>https://youtu.be/elQqZ_jXhMs</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" type="video/mp4">https://youtu.be/KwCpbYA1QEY</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
